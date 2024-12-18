@@ -9,7 +9,7 @@ import org.springframework.data.domain.Pageable;
 public interface FoodSearch {
     // 연습용으로, 자바 문법으로 SQL 문장 전달해보기.
     Page<Food> search(Pageable pageable);
-
+//^^
     //String[] types , "t", "c", "tc"
     // Pageable -> 페이징 하기 위한 재료. 현재 페이지, 페이지 보여줄 갯수, 정렬
     // Page -> 1) 페이징된 결과물 10개 2) 전체 갯수 3) 현제 페이지, 등. 정보 조회 가능.
